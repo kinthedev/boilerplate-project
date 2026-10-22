@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES2022", /* Phiên bản JS đầu ra phù hợp với Node.js mới */
+        "module": "NodeNext", /* Hỗ trợ ES Modules (import/export) chuẩn Node */
+        "moduleResolution": "NodeNext",
+        "outDir": "./dist", /* Thư mục chứa file .js sau khi build */
+        "rootDir": "./src", /* Thư mục chứa code nguồn .ts của bạn */
+        "strict": true, /* Bật kiểm tra kiểu dữ liệu nghiêm ngặt */
+        "esModuleInterop": true, /* Giúp import các thư viện cũ dễ dàng hơn */
+        "skipLibCheck": true, /* Bỏ qua kiểm tra lỗi trong node_modules để build nhanh hơn */
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "src/**/*"
+    ] /* Chỉ biên dịch các file trong thư mục src */
+}

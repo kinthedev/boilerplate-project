@@ -1,0 +1,6 @@
+# Ignore an entire folder (trailing slash)
+node_modules/
+build/
+
+# Ignore a folder only at the root level
+/dist/
